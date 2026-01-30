@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="project_TestCases(failed)">
+    <classes>
+      <class name="tests.DashBoard_Test">
+        <methods>
+          <include name="verifyWidget_TimeAtWork"/>
+          <include name="verifyUpgradeButtonEnabled"/>
+          <include name="loggout"/>
+          <include name="verifyWidget_EmployeesOnLeave"/>
+          <include name="verifyWidget_QuickLaunch"/>
+          <include name="verifyWidget_DistributionByLocation"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="verifyUpgradeButtonNavigation"/>
+          <include name="setUp"/>
+          <include name="verifyHelpButtonDisplayed"/>
+          <include name="verifyChartsDisplayed"/>
+          <include name="verifyQuickLaunch_FirstButton"/>
+          <include name="loggin"/>
+          <include name="verifyUpgradeButtonDisplayed"/>
+          <include name="verifyQuickLaunch_SecondButton"/>
+          <include name="verifyWidget_DistributionBySubUnit"/>
+          <include name="verifyQuickLaunch_ThirdButton"/>
+          <include name="verifyWidget_MyActions"/>
+          <include name="verifyHelpButtonNavigation"/>
+        </methods>
+      </class> <!-- tests.DashBoard_Test -->
+      <class name="tests.Navbar_Test">
+        <methods>
+          <include name="verifyNavbarItemsLink"/>
+          <include name="loggout"/>
+          <include name="searchFieldEnabaled"/>
+          <include name="loggin"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="searchFieldWorking"/>
+          <include name="setUp"/>
+          <include name="searchFieldVisiblity"/>
+          <include name="searchFieldInputVerify"/>
+        </methods>
+      </class> <!-- tests.Navbar_Test -->
+    </classes>
+  </test> <!-- project_TestCases(failed) -->
+</suite> <!-- Failed suite [OrangeHRM Test Suite] -->
