@@ -112,7 +112,7 @@ public class DashBoard_Test extends BaseWebdriver {
 		List<WebElement> buttons = dashboard.getQuickLaunch_buttons();
 		
 		for (WebElement button : buttons) {
-			// ✅ Wait for each button to be visible
+		
 			wait.until(ExpectedConditions.visibilityOf(button));
 			Assert.assertTrue(button.isEnabled(), "Quick launch button is not enabled: " + button.getAttribute("title"));
 		}
