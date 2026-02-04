@@ -202,7 +202,7 @@ public class Loggin101 extends BaseClass {
         sa.assertAll();
     }
 
-    // -------- Functional login (LAST) --------
+    // -------- Functional login  --------
 
     @Test(priority = 9, dataProvider = "loginDetails")
     public void performLogin(String user, String pass, String scenario)
@@ -210,7 +210,7 @@ public class Loggin101 extends BaseClass {
 
         System.out.println("Testing: " + user + " | " + pass + " | " + scenario);
 
-        // Handle "null" strings from Excel
+        
         if (scenario.equalsIgnoreCase("required")) {
             if (user.equalsIgnoreCase("null") || user.isEmpty()) {
                 user = "";
@@ -222,12 +222,12 @@ public class Loggin101 extends BaseClass {
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 
-        // Perform login
+       
         login.login(user, pass);
 
         // Handle different scenarios
         if (scenario.equalsIgnoreCase("positive")) {
-            // Positive scenario - should succeed
+           
             try {
                 wait.until(ExpectedConditions.visibilityOfElementLocated(
                     By.xpath("//div[@class='oxd-layout-context']")));
@@ -236,10 +236,10 @@ public class Loggin101 extends BaseClass {
                     login.getDashboard().isDisplayed(),
                     "Login should be successful for: " + user);
 
-                // Logout after successful login
+                
                 login.logout();
                 
-                // Wait for logout to complete
+              
                 wait.until(ExpectedConditions.visibilityOfElementLocated(
                     By.xpath("//input[@name='username']")));
 
@@ -275,7 +275,7 @@ public class Loggin101 extends BaseClass {
                 Assert.assertTrue(isErrorDisplayed,
                     "Invalid credential message expected for: " + user + "/" + pass);
 
-                // Check if accidentally logged in (shouldn't happen in negative scenario)
+               
                 if (driver.findElements(
                         By.xpath("//div[@class='oxd-layout-context']")).size() > 0) {
                     System.out.println(" Unexpectedly logged in with invalid credentials!");
@@ -285,7 +285,7 @@ public class Loggin101 extends BaseClass {
             } catch (Exception e) {
                 System.out.println("Negative scenario failed for: " + user + "/" + pass);
                 
-                // Take screenshot for debugging
+                
                 System.out.println("Current URL: " + driver.getCurrentUrl());
                 
                 throw e;
