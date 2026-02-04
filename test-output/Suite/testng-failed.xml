@@ -3,31 +3,20 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="com.crm.utility.Literners"/>
+    <listener class-name="com.crm.utility.MyAnnotationTransformer"/>
   </listeners>
-  <test thread-count="5" name="Login Module(failed)">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.DashBoard_Test">
+      <class name="tests.Profile_Test">
         <methods>
-          <include name="verifyUpgradeButtonEnabled"/>
-          <include name="setUp"/>
-          <include name="loggout"/>
-          <include name="loggin"/>
-          <include name="postCondition"/>
-          <include name="preCondition"/>
-          <include name="verifyUpgradeButtonDisplayed"/>
-          <include name="verifyUpgradeButtonNavigation"/>
-        </methods>
-      </class> <!-- tests.DashBoard_Test -->
-      <class name="tests.Navbar_Test">
-        <methods>
-          <include name="verifyNavbarItemsLink"/>
           <include name="loggout"/>
           <include name="loggin"/>
           <include name="preCondition"/>
           <include name="postCondition"/>
+          <include name="verifyAboutLink"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- tests.Navbar_Test -->
+      </class> <!-- tests.Profile_Test -->
     </classes>
-  </test> <!-- Login Module(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

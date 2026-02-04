@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+<testng-results ignored="0" total="25" passed="25" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[@BeforeTest - Browser launch]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeMethod - Login]]>
+    </line>
+    <line>
+      <![CDATA[@AfterMethod - Login]]>
     </line>
     <line>
       <![CDATA[@BeforeMethod - Login]]>
@@ -134,487 +140,597 @@
       <![CDATA[@AfterMethod - Login]]>
     </line>
     <line>
+      <![CDATA[@BeforeMethod - Login]]>
+    </line>
+    <line>
+      <![CDATA[@AfterMethod - Login]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeMethod - Login]]>
+    </line>
+    <line>
+      <![CDATA[@AfterMethod - Login]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeMethod - Login]]>
+    </line>
+    <line>
+      <![CDATA[@AfterMethod - Login]]>
+    </line>
+    <line>
       <![CDATA[@AfterTest - Browser close]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-01-30T11:50:30 IST" name="Default suite" finished-at="2026-01-30T11:53:38 IST" duration-ms="187562">
+  <suite started-at="2026-02-02T18:01:56 IST" name="Default suite" finished-at="2026-02-02T18:07:29 IST" duration-ms="332248">
     <groups>
     </groups>
-    <test started-at="2026-01-30T11:50:30 IST" name="Default test" finished-at="2026-01-30T11:53:38 IST" duration-ms="187562">
+    <test started-at="2026-02-02T18:01:56 IST" name="Default test" finished-at="2026-02-02T18:07:29 IST" duration-ms="332248">
       <class name="tests.DashBoard_Test">
-        <test-method is-config="true" signature="preCondition()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:50:30 IST" name="preCondition" finished-at="2026-01-30T11:50:39 IST" duration-ms="8728" status="PASS">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:01:56 IST" name="preCondition" finished-at="2026-02-02T18:02:08 IST" duration-ms="11779" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeTest - Browser launch]]>
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:50:39 IST" name="loggin" finished-at="2026-01-30T11:50:40 IST" duration-ms="1110" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:02:08 IST" name="initialize" finished-at="2026-02-02T18:02:08 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:02:08 IST" name="loggin" finished-at="2026-02-02T18:02:10 IST" duration-ms="2280" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggin -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:50:40 IST" name="setUp" finished-at="2026-01-30T11:50:43 IST" duration-ms="2372" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:02:10 IST" name="setUp" finished-at="2026-02-02T18:02:14 IST" duration-ms="3776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyDashBoardAfterLogin()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:50:43 IST" name="verifyDashBoardAfterLogin" finished-at="2026-01-30T11:50:43 IST" duration-ms="978" status="PASS">
+        <test-method signature="verifyDashBoardLink()[pri:-1, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:02:14 IST" name="verifyDashBoardLink" finished-at="2026-02-02T18:02:14 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashBoardLink -->
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:02:14 IST" name="loggout" finished-at="2026-02-02T18:02:18 IST" duration-ms="3973" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterMethod - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loggout -->
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:02:18 IST" name="loggin" finished-at="2026-02-02T18:02:19 IST" duration-ms="965" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeMethod - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loggin -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:02:19 IST" name="setUp" finished-at="2026-02-02T18:02:22 IST" duration-ms="2639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDashBoardAfterLogin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:02:22 IST" name="verifyDashBoardAfterLogin" finished-at="2026-02-02T18:02:22 IST" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDashBoardAfterLogin -->
-        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:50:44 IST" name="loggout" finished-at="2026-01-30T11:50:49 IST" duration-ms="5037" status="PASS">
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:02:22 IST" name="loggout" finished-at="2026-02-02T18:02:27 IST" duration-ms="5401" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggout -->
-        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:50:49 IST" name="loggin" finished-at="2026-01-30T11:50:50 IST" duration-ms="1243" status="PASS">
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:02:27 IST" name="loggin" finished-at="2026-02-02T18:02:28 IST" duration-ms="1110" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggin -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:50:50 IST" name="setUp" finished-at="2026-01-30T11:50:52 IST" duration-ms="1828" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:02:28 IST" name="setUp" finished-at="2026-02-02T18:02:31 IST" duration-ms="2567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyHelpButtonEnabaled()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:50:52 IST" name="verifyHelpButtonEnabaled" finished-at="2026-01-30T11:50:52 IST" duration-ms="720" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHelpButtonEnabaled -->
-        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:50:52 IST" name="loggout" finished-at="2026-01-30T11:50:55 IST" duration-ms="2991" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[@AfterMethod - Login]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- loggout -->
-        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:50:55 IST" name="loggin" finished-at="2026-01-30T11:50:56 IST" duration-ms="891" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[@BeforeMethod - Login]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- loggin -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:50:56 IST" name="setUp" finished-at="2026-01-30T11:50:58 IST" duration-ms="2237" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyNavbarVisibility()[pri:1, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:50:58 IST" name="verifyNavbarVisibility" finished-at="2026-01-30T11:51:00 IST" duration-ms="1569" status="PASS">
+        <test-method signature="verifyNavbarVisibility()[pri:1, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:02:31 IST" name="verifyNavbarVisibility" finished-at="2026-02-02T18:02:31 IST" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavbarVisibility -->
-        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:00 IST" name="loggout" finished-at="2026-01-30T11:51:03 IST" duration-ms="3360" status="PASS">
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:02:31 IST" name="loggout" finished-at="2026-02-02T18:02:34 IST" duration-ms="3270" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggout -->
-        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:03 IST" name="loggin" finished-at="2026-01-30T11:51:04 IST" duration-ms="819" status="PASS">
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:02:34 IST" name="loggin" finished-at="2026-02-02T18:02:36 IST" duration-ms="1372" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggin -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:04 IST" name="setUp" finished-at="2026-01-30T11:51:06 IST" duration-ms="1821" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:02:36 IST" name="setUp" finished-at="2026-02-02T18:02:40 IST" duration-ms="4280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyProfileIconDisplayed()[pri:3, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:06 IST" name="verifyProfileIconDisplayed" finished-at="2026-01-30T11:51:07 IST" duration-ms="836" status="PASS">
+        <test-method signature="verifyProfileIconDisplayed()[pri:3, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:02:40 IST" name="verifyProfileIconDisplayed" finished-at="2026-02-02T18:02:40 IST" duration-ms="99" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProfileIconDisplayed -->
-        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:07 IST" name="loggout" finished-at="2026-01-30T11:51:12 IST" duration-ms="5296" status="PASS">
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:02:40 IST" name="loggout" finished-at="2026-02-02T18:02:48 IST" duration-ms="7435" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggout -->
-        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:12 IST" name="loggin" finished-at="2026-01-30T11:51:13 IST" duration-ms="771" status="PASS">
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:02:48 IST" name="loggin" finished-at="2026-02-02T18:02:52 IST" duration-ms="4336" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggin -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:13 IST" name="setUp" finished-at="2026-01-30T11:51:15 IST" duration-ms="1598" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:02:52 IST" name="setUp" finished-at="2026-02-02T18:02:59 IST" duration-ms="6837" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyProfileDropdownVisibility()[pri:4, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:15 IST" name="verifyProfileDropdownVisibility" finished-at="2026-01-30T11:51:16 IST" duration-ms="1191" status="PASS">
+        <test-method signature="verifyProfileDropdownVisibility()[pri:4, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:02:59 IST" name="verifyProfileDropdownVisibility" finished-at="2026-02-02T18:03:00 IST" duration-ms="991" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProfileDropdownVisibility -->
-        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:16 IST" name="loggout" finished-at="2026-01-30T11:51:18 IST" duration-ms="2495" status="PASS">
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:03:00 IST" name="loggout" finished-at="2026-02-02T18:03:08 IST" duration-ms="8648" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggout -->
-        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:18 IST" name="loggin" finished-at="2026-01-30T11:51:19 IST" duration-ms="859" status="PASS">
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:03:08 IST" name="loggin" finished-at="2026-02-02T18:03:10 IST" duration-ms="1879" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggin -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:19 IST" name="setUp" finished-at="2026-01-30T11:51:22 IST" duration-ms="2431" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:03:10 IST" name="setUp" finished-at="2026-02-02T18:03:18 IST" duration-ms="7332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyQuickLaunchButtonsEnabled()[pri:5, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:22 IST" name="verifyQuickLaunchButtonsEnabled" finished-at="2026-01-30T11:51:24 IST" duration-ms="2268" status="PASS">
+        <test-method signature="verifyQuickLaunchButtonsEnabled()[pri:5, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:03:18 IST" name="verifyQuickLaunchButtonsEnabled" finished-at="2026-02-02T18:03:24 IST" duration-ms="6018" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyQuickLaunchButtonsEnabled -->
-        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:24 IST" name="loggout" finished-at="2026-01-30T11:51:26 IST" duration-ms="2089" status="PASS">
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:03:24 IST" name="loggout" finished-at="2026-02-02T18:03:27 IST" duration-ms="3153" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggout -->
-        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:26 IST" name="loggin" finished-at="2026-01-30T11:51:27 IST" duration-ms="1012" status="PASS">
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:03:27 IST" name="loggin" finished-at="2026-02-02T18:03:28 IST" duration-ms="1355" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggin -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:27 IST" name="setUp" finished-at="2026-01-30T11:51:29 IST" duration-ms="1962" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:03:28 IST" name="setUp" finished-at="2026-02-02T18:03:33 IST" duration-ms="4436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyChartsDisplayed()[pri:6, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:29 IST" name="verifyChartsDisplayed" finished-at="2026-01-30T11:51:31 IST" duration-ms="1702" status="PASS">
+        <test-method signature="verifyChartsDisplayed()[pri:6, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:03:33 IST" name="verifyChartsDisplayed" finished-at="2026-02-02T18:03:34 IST" duration-ms="1716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyChartsDisplayed -->
-        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:31 IST" name="loggout" finished-at="2026-01-30T11:51:33 IST" duration-ms="2389" status="PASS">
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:03:34 IST" name="loggout" finished-at="2026-02-02T18:03:39 IST" duration-ms="4927" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggout -->
-        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:33 IST" name="loggin" finished-at="2026-01-30T11:51:34 IST" duration-ms="930" status="PASS">
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:03:39 IST" name="loggin" finished-at="2026-02-02T18:03:41 IST" duration-ms="1409" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggin -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:34 IST" name="setUp" finished-at="2026-01-30T11:51:36 IST" duration-ms="2085" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:03:41 IST" name="setUp" finished-at="2026-02-02T18:03:48 IST" duration-ms="7191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyWidget_DistributionByLocation()[pri:7, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:36 IST" name="verifyWidget_DistributionByLocation" finished-at="2026-01-30T11:51:37 IST" duration-ms="658" status="PASS">
+        <test-method signature="verifyWidget_DistributionByLocation()[pri:7, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:03:48 IST" name="verifyWidget_DistributionByLocation" finished-at="2026-02-02T18:03:48 IST" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWidget_DistributionByLocation -->
-        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:37 IST" name="loggout" finished-at="2026-01-30T11:51:39 IST" duration-ms="2512" status="PASS">
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:03:48 IST" name="loggout" finished-at="2026-02-02T18:03:56 IST" duration-ms="7848" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggout -->
-        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:39 IST" name="loggin" finished-at="2026-01-30T11:51:40 IST" duration-ms="965" status="PASS">
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:03:56 IST" name="loggin" finished-at="2026-02-02T18:03:57 IST" duration-ms="1351" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggin -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:40 IST" name="setUp" finished-at="2026-01-30T11:51:42 IST" duration-ms="1897" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:03:57 IST" name="setUp" finished-at="2026-02-02T18:04:03 IST" duration-ms="5813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyWidget_DistributionBySubUnit()[pri:7, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:42 IST" name="verifyWidget_DistributionBySubUnit" finished-at="2026-01-30T11:51:43 IST" duration-ms="944" status="PASS">
+        <test-method signature="verifyWidget_DistributionBySubUnit()[pri:7, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:04:03 IST" name="verifyWidget_DistributionBySubUnit" finished-at="2026-02-02T18:04:03 IST" duration-ms="141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWidget_DistributionBySubUnit -->
-        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:43 IST" name="loggout" finished-at="2026-01-30T11:51:47 IST" duration-ms="4163" status="PASS">
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:04:03 IST" name="loggout" finished-at="2026-02-02T18:04:07 IST" duration-ms="4249" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggout -->
-        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:47 IST" name="loggin" finished-at="2026-01-30T11:51:49 IST" duration-ms="1478" status="PASS">
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:04:07 IST" name="loggin" finished-at="2026-02-02T18:04:09 IST" duration-ms="1461" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggin -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:49 IST" name="setUp" finished-at="2026-01-30T11:51:51 IST" duration-ms="2428" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:04:09 IST" name="setUp" finished-at="2026-02-02T18:04:15 IST" duration-ms="6328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyWidget_EmployeesOnLeave()[pri:7, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:51 IST" name="verifyWidget_EmployeesOnLeave" finished-at="2026-01-30T11:51:52 IST" duration-ms="1141" status="PASS">
+        <test-method signature="verifyWidget_EmployeesOnLeave()[pri:7, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:04:15 IST" name="verifyWidget_EmployeesOnLeave" finished-at="2026-02-02T18:04:15 IST" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWidget_EmployeesOnLeave -->
-        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:52 IST" name="loggout" finished-at="2026-01-30T11:51:58 IST" duration-ms="5390" status="PASS">
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:04:15 IST" name="loggout" finished-at="2026-02-02T18:04:22 IST" duration-ms="6893" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggout -->
-        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:58 IST" name="loggin" finished-at="2026-01-30T11:51:58 IST" duration-ms="760" status="PASS">
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:04:22 IST" name="loggin" finished-at="2026-02-02T18:04:24 IST" duration-ms="1419" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggin -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:51:58 IST" name="setUp" finished-at="2026-01-30T11:52:00 IST" duration-ms="1939" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:04:24 IST" name="setUp" finished-at="2026-02-02T18:04:27 IST" duration-ms="2968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyWidget_MyActions()[pri:7, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:00 IST" name="verifyWidget_MyActions" finished-at="2026-01-30T11:52:01 IST" duration-ms="727" status="PASS">
+        <test-method signature="verifyWidget_MyActions()[pri:7, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:04:27 IST" name="verifyWidget_MyActions" finished-at="2026-02-02T18:04:27 IST" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWidget_MyActions -->
-        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:01 IST" name="loggout" finished-at="2026-01-30T11:52:04 IST" duration-ms="2546" status="PASS">
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:04:27 IST" name="loggout" finished-at="2026-02-02T18:04:36 IST" duration-ms="9034" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggout -->
-        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:04 IST" name="loggin" finished-at="2026-01-30T11:52:05 IST" duration-ms="1258" status="PASS">
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:04:36 IST" name="loggin" finished-at="2026-02-02T18:04:37 IST" duration-ms="1009" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggin -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:05 IST" name="setUp" finished-at="2026-01-30T11:52:07 IST" duration-ms="1996" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:04:37 IST" name="setUp" finished-at="2026-02-02T18:04:40 IST" duration-ms="2808" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyWidget_QuickLaunch()[pri:7, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:07 IST" name="verifyWidget_QuickLaunch" finished-at="2026-01-30T11:52:08 IST" duration-ms="948" status="PASS">
+        <test-method signature="verifyWidget_QuickLaunch()[pri:7, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:04:40 IST" name="verifyWidget_QuickLaunch" finished-at="2026-02-02T18:04:40 IST" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWidget_QuickLaunch -->
-        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:08 IST" name="loggout" finished-at="2026-01-30T11:52:10 IST" duration-ms="2135" status="PASS">
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:04:40 IST" name="loggout" finished-at="2026-02-02T18:04:42 IST" duration-ms="2470" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggout -->
-        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:10 IST" name="loggin" finished-at="2026-01-30T11:52:11 IST" duration-ms="857" status="PASS">
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:04:42 IST" name="loggin" finished-at="2026-02-02T18:04:43 IST" duration-ms="975" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggin -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:11 IST" name="setUp" finished-at="2026-01-30T11:52:12 IST" duration-ms="1648" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:04:43 IST" name="setUp" finished-at="2026-02-02T18:04:46 IST" duration-ms="3102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyWidget_TimeAtWork()[pri:7, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:12 IST" name="verifyWidget_TimeAtWork" finished-at="2026-01-30T11:52:13 IST" duration-ms="625" status="PASS">
+        <test-method signature="verifyWidget_TimeAtWork()[pri:7, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:04:46 IST" name="verifyWidget_TimeAtWork" finished-at="2026-02-02T18:04:46 IST" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWidget_TimeAtWork -->
-        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:13 IST" name="loggout" finished-at="2026-01-30T11:52:16 IST" duration-ms="3155" status="PASS">
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:04:46 IST" name="loggout" finished-at="2026-02-02T18:04:49 IST" duration-ms="3112" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggout -->
-        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:16 IST" name="loggin" finished-at="2026-01-30T11:52:17 IST" duration-ms="1053" status="PASS">
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:04:49 IST" name="loggin" finished-at="2026-02-02T18:04:50 IST" duration-ms="964" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggin -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:17 IST" name="setUp" finished-at="2026-01-30T11:52:19 IST" duration-ms="2092" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:04:50 IST" name="setUp" finished-at="2026-02-02T18:04:53 IST" duration-ms="2810" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyQuickLaunch_FirstButton()[pri:9, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:19 IST" name="verifyQuickLaunch_FirstButton" finished-at="2026-01-30T11:52:23 IST" duration-ms="3783" status="PASS">
+        <test-method signature="verifyQuickLaunch_FirstButton()[pri:9, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:04:53 IST" name="verifyQuickLaunch_FirstButton" finished-at="2026-02-02T18:04:58 IST" duration-ms="4359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyQuickLaunch_FirstButton -->
-        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:23 IST" name="loggout" finished-at="2026-01-30T11:52:28 IST" duration-ms="4884" status="PASS">
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:04:58 IST" name="loggout" finished-at="2026-02-02T18:05:00 IST" duration-ms="2884" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggout -->
-        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:28 IST" name="loggin" finished-at="2026-01-30T11:52:29 IST" duration-ms="851" status="PASS">
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:05:00 IST" name="loggin" finished-at="2026-02-02T18:05:01 IST" duration-ms="1092" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggin -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:29 IST" name="setUp" finished-at="2026-01-30T11:52:32 IST" duration-ms="2850" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:05:01 IST" name="setUp" finished-at="2026-02-02T18:05:05 IST" duration-ms="3012" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyQuickLaunch_SecondButton()[pri:9, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:32 IST" name="verifyQuickLaunch_SecondButton" finished-at="2026-01-30T11:52:37 IST" duration-ms="5793" status="PASS">
+        <test-method signature="verifyQuickLaunch_SecondButton()[pri:9, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:05:05 IST" name="verifyQuickLaunch_SecondButton" finished-at="2026-02-02T18:05:11 IST" duration-ms="6524" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyQuickLaunch_SecondButton -->
-        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:37 IST" name="loggout" finished-at="2026-01-30T11:52:43 IST" duration-ms="5552" status="PASS">
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:05:11 IST" name="loggout" finished-at="2026-02-02T18:05:14 IST" duration-ms="2678" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggout -->
-        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:43 IST" name="loggin" finished-at="2026-01-30T11:52:44 IST" duration-ms="1010" status="PASS">
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:05:14 IST" name="loggin" finished-at="2026-02-02T18:05:15 IST" duration-ms="861" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggin -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:44 IST" name="setUp" finished-at="2026-01-30T11:52:46 IST" duration-ms="2187" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:05:15 IST" name="setUp" finished-at="2026-02-02T18:05:19 IST" duration-ms="3963" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyQuickLaunch_ThirdButton()[pri:9, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:46 IST" name="verifyQuickLaunch_ThirdButton" finished-at="2026-01-30T11:52:51 IST" duration-ms="4443" status="PASS">
+        <test-method signature="verifyQuickLaunch_ThirdButton()[pri:9, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:05:19 IST" name="verifyQuickLaunch_ThirdButton" finished-at="2026-02-02T18:05:26 IST" duration-ms="7121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyQuickLaunch_ThirdButton -->
-        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:51 IST" name="loggout" finished-at="2026-01-30T11:52:54 IST" duration-ms="3237" status="PASS">
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:05:26 IST" name="loggout" finished-at="2026-02-02T18:05:31 IST" duration-ms="5602" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggout -->
-        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:54 IST" name="loggin" finished-at="2026-01-30T11:52:55 IST" duration-ms="847" status="PASS">
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:05:31 IST" name="loggin" finished-at="2026-02-02T18:05:34 IST" duration-ms="2630" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggin -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:55 IST" name="setUp" finished-at="2026-01-30T11:52:57 IST" duration-ms="2521" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:05:34 IST" name="setUp" finished-at="2026-02-02T18:05:40 IST" duration-ms="5778" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyHelpButtonDisplayed()[pri:10, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:57 IST" name="verifyHelpButtonDisplayed" finished-at="2026-01-30T11:52:58 IST" duration-ms="857" status="PASS">
+        <test-method signature="verifyHelpButtonDisplayed()[pri:10, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:05:40 IST" name="verifyHelpButtonDisplayed" finished-at="2026-02-02T18:05:40 IST" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHelpButtonDisplayed -->
-        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:52:58 IST" name="loggout" finished-at="2026-01-30T11:53:01 IST" duration-ms="2847" status="PASS">
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:05:40 IST" name="loggout" finished-at="2026-02-02T18:05:49 IST" duration-ms="8831" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggout -->
-        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:53:01 IST" name="loggin" finished-at="2026-01-30T11:53:02 IST" duration-ms="773" status="PASS">
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:05:49 IST" name="loggin" finished-at="2026-02-02T18:05:50 IST" duration-ms="1639" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggin -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:53:02 IST" name="setUp" finished-at="2026-01-30T11:53:04 IST" duration-ms="1881" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:05:50 IST" name="setUp" finished-at="2026-02-02T18:05:57 IST" duration-ms="6539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyHelpButtonNavigation()[pri:10, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:53:04 IST" name="verifyHelpButtonNavigation" finished-at="2026-01-30T11:53:08 IST" duration-ms="4266" status="PASS">
+        <test-method signature="verifyHelpButtonEnabaled()[pri:11, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:05:57 IST" name="verifyHelpButtonEnabaled" finished-at="2026-02-02T18:05:57 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHelpButtonEnabaled -->
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:05:57 IST" name="loggout" finished-at="2026-02-02T18:06:01 IST" duration-ms="4002" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterMethod - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loggout -->
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:06:01 IST" name="loggin" finished-at="2026-02-02T18:06:02 IST" duration-ms="1091" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeMethod - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loggin -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:06:02 IST" name="setUp" finished-at="2026-02-02T18:06:05 IST" duration-ms="3238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHelpButtonNavigation()[pri:12, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:06:05 IST" name="verifyHelpButtonNavigation" finished-at="2026-02-02T18:06:09 IST" duration-ms="3565" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[back]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyHelpButtonNavigation -->
-        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:53:08 IST" name="loggout" finished-at="2026-01-30T11:53:10 IST" duration-ms="2269" status="PASS">
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:06:09 IST" name="loggout" finished-at="2026-02-02T18:06:11 IST" duration-ms="2498" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggout -->
-        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:53:10 IST" name="loggin" finished-at="2026-01-30T11:53:11 IST" duration-ms="873" status="PASS">
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:06:11 IST" name="loggin" finished-at="2026-02-02T18:06:12 IST" duration-ms="1023" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggin -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:53:11 IST" name="setUp" finished-at="2026-01-30T11:53:13 IST" duration-ms="2162" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:06:12 IST" name="setUp" finished-at="2026-02-02T18:06:15 IST" duration-ms="3029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUpgradeButtonDisplayed()[pri:11, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:53:13 IST" name="verifyUpgradeButtonDisplayed" finished-at="2026-01-30T11:53:14 IST" duration-ms="669" status="PASS">
+        <test-method signature="verifyUpgradeButtonDisplayed()[pri:13, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:06:15 IST" name="verifyUpgradeButtonDisplayed" finished-at="2026-02-02T18:06:15 IST" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUpgradeButtonDisplayed -->
-        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:53:14 IST" name="loggout" finished-at="2026-01-30T11:53:17 IST" duration-ms="3560" status="PASS">
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:06:15 IST" name="loggout" finished-at="2026-02-02T18:06:18 IST" duration-ms="2448" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggout -->
-        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:53:17 IST" name="loggin" finished-at="2026-01-30T11:53:18 IST" duration-ms="659" status="PASS">
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:06:18 IST" name="loggin" finished-at="2026-02-02T18:06:19 IST" duration-ms="1642" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggin -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:53:18 IST" name="setUp" finished-at="2026-01-30T11:53:20 IST" duration-ms="1710" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:06:19 IST" name="setUp" finished-at="2026-02-02T18:06:23 IST" duration-ms="3370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUpgradeButtonEnabled()[pri:12, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:53:20 IST" name="verifyUpgradeButtonEnabled" finished-at="2026-01-30T11:53:20 IST" duration-ms="633" status="PASS">
+        <test-method signature="verifyUpgradeButtonEnabled()[pri:14, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:06:23 IST" name="verifyUpgradeButtonEnabled" finished-at="2026-02-02T18:06:23 IST" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUpgradeButtonEnabled -->
-        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:53:20 IST" name="loggout" finished-at="2026-01-30T11:53:25 IST" duration-ms="4525" status="PASS">
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:06:23 IST" name="loggout" finished-at="2026-02-02T18:06:26 IST" duration-ms="3385" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggout -->
-        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:53:25 IST" name="loggin" finished-at="2026-01-30T11:53:26 IST" duration-ms="939" status="PASS">
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:06:26 IST" name="loggin" finished-at="2026-02-02T18:06:28 IST" duration-ms="1606" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggin -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:53:26 IST" name="setUp" finished-at="2026-01-30T11:53:28 IST" duration-ms="2087" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:06:28 IST" name="setUp" finished-at="2026-02-02T18:06:31 IST" duration-ms="3526" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUpgradeButtonNavigation()[pri:13, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:53:28 IST" name="verifyUpgradeButtonNavigation" finished-at="2026-01-30T11:53:36 IST" duration-ms="7913" status="PASS">
+        <test-method signature="verifyUpgradeButtonNavigation()[pri:15, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:06:31 IST" name="verifyUpgradeButtonNavigation" finished-at="2026-02-02T18:06:58 IST" duration-ms="26698" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUpgradeButtonNavigation -->
-        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:53:36 IST" name="loggout" finished-at="2026-01-30T11:53:38 IST" duration-ms="1718" status="PASS">
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:06:58 IST" name="loggout" finished-at="2026-02-02T18:07:01 IST" duration-ms="2410" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterMethod - Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loggout -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:tests.DashBoard_Test@1bd4fdd]" started-at="2026-01-30T11:53:38 IST" name="postCondition" finished-at="2026-01-30T11:53:38 IST" duration-ms="236" status="PASS">
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:07:01 IST" name="loggin" finished-at="2026-02-02T18:07:02 IST" duration-ms="1754" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeMethod - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loggin -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:07:02 IST" name="setUp" finished-at="2026-02-02T18:07:08 IST" duration-ms="5691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoVerify()[pri:16, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:07:08 IST" name="logoVerify" finished-at="2026-02-02T18:07:08 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoVerify -->
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:07:08 IST" name="loggout" finished-at="2026-02-02T18:07:11 IST" duration-ms="3253" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterMethod - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loggout -->
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:07:11 IST" name="loggin" finished-at="2026-02-02T18:07:13 IST" duration-ms="1305" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeMethod - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loggin -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:07:13 IST" name="setUp" finished-at="2026-02-02T18:07:16 IST" duration-ms="3123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navbarVerify()[pri:17, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:07:16 IST" name="navbarVerify" finished-at="2026-02-02T18:07:16 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navbarVerify -->
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:07:16 IST" name="loggout" finished-at="2026-02-02T18:07:20 IST" duration-ms="4323" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterMethod - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loggout -->
+        <test-method is-config="true" signature="loggin()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:07:20 IST" name="loggin" finished-at="2026-02-02T18:07:22 IST" duration-ms="1329" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeMethod - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loggin -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:07:22 IST" name="setUp" finished-at="2026-02-02T18:07:25 IST" duration-ms="3660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="footerVerify()[pri:18, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:07:25 IST" name="footerVerify" finished-at="2026-02-02T18:07:25 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerVerify -->
+        <test-method is-config="true" signature="loggout()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:07:25 IST" name="loggout" finished-at="2026-02-02T18:07:28 IST" duration-ms="2882" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterMethod - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loggout -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:tests.DashBoard_Test@459e9125]" started-at="2026-02-02T18:07:28 IST" name="postCondition" finished-at="2026-02-02T18:07:29 IST" duration-ms="380" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterTest - Browser close]]>

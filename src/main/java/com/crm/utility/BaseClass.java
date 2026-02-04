@@ -18,13 +18,14 @@ public class BaseClass  {
 	public static GetProperties prop= new GetProperties("C:\\\\girish\\\\javaProjects\\\\Girish_Automation\\\\Hybrid_Driven_Tesing\\\\src\\\\test\\\\resources\\\\config.properties");
     public  final String  BaseUrl=prop.getVal("baseUrl");
 	
-	@BeforeTest
+	@BeforeClass
 	public void preCondition() throws IOException {
 		
 		
 	String ans=prop.getVal( "browser");
 	System.out.println(ans);
-	if(ans.equalsIgnoreCase("chrome"))
+	// if(ans.equalsIgnoreCase("chrome"))
+
 	driver= new ChromeDriver();
 	
 	driver.manage().window().maximize();
@@ -37,7 +38,7 @@ public class BaseClass  {
 	}
 	
 	
-	@AfterTest
+	@AfterClass
 	public void postCondition() {
 		//System.out.println("quiting");
 		driver.quit();

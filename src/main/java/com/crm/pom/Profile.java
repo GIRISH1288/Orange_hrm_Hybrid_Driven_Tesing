@@ -7,6 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import net.bytebuddy.asm.MemberSubstitution.FieldValue;
+
 public class Profile {
 
 	
@@ -31,8 +33,53 @@ public class Profile {
 	@FindBy(xpath = "(//a[@class='oxd-userdropdown-link'])[4]")
 	private WebElement Logout;
 	
-	@FindBy(xpath = "oxd-userdropdown-link")
+	@FindBy(xpath = "(//a[@class='oxd-userdropdown-link'])")
 	private List<WebElement>allLinks;
+	
+	@FindBy(xpath = "//ul[@class='oxd-dropdown-menu']")
+	private  WebElement dropDownmenu;
+	
+	@FindBy(xpath = "(//input[@class='oxd-input oxd-input--active'])[2]")
+	private WebElement ctPass;
+	
+	@FindBy(xpath = "(//input[@class='oxd-input oxd-input--active'])[3]")
+	private WebElement newPass;
+	
+	@FindBy(xpath = "(//input[@class='oxd-input oxd-input--active'])[4]")
+	private WebElement confPass;
+	
+	@FindBy(xpath = "//button[@type='submit']")
+	private WebElement save;
+	
+	@FindBy(xpath = "(//button[@type='button'])[4]")
+	private WebElement cancel;
+	//_______________________________________________________________
+	
+	
+
+	public WebElement getCtPass() {
+		return ctPass;
+	}
+
+	public WebElement getNewPass() {
+		return newPass;
+	}
+
+	public WebElement getConfPass() {
+		return confPass;
+	}
+
+	public WebElement getSave() {
+		return save;
+	}
+
+	public WebElement getCancel() {
+		return cancel;
+	}
+
+	public WebElement getDropDownmenu() {
+		return dropDownmenu;
+	}
 
 	public WebElement getUsername() {
 		return username;

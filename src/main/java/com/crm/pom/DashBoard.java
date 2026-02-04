@@ -17,6 +17,30 @@ public class DashBoard {
 		
 	}
 	
+	@FindBy(xpath = "(//img)[2]")
+	private WebElement logo;
+	
+	@FindBy(xpath = "//div[@class='oxd-layout-footer']/p[2]")
+	private WebElement footer;
+	
+	@FindBy(xpath = "//ul[@class='oxd-main-menu']")
+	private WebElement navbar;
+	
+	
+	public WebElement getLogo() {
+		return logo;
+	}
+
+
+	public WebElement getFooter() {
+		return footer;
+	}
+
+
+	public WebElement getNavbar() {
+		return navbar;
+	}
+
 	@FindBy(xpath ="//div[@class='oxd-grid-3 orangehrm-dashboard-grid']")
 	private WebElement widgetgrid;
 	

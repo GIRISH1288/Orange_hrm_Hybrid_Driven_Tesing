@@ -23,6 +23,7 @@ import com.crm.utility.ReadExcel;
 public class Loggin101 extends BaseClass {
 
     public Login login;
+    WebDriverWait wait;
 
     @DataProvider(name = "loginDetails")
     public Object[][] provide() {
@@ -36,6 +37,7 @@ public class Loggin101 extends BaseClass {
     public void setUp() {
         driver.get(BaseUrl);
         login = new Login(driver);
+        wait=new WebDriverWait(driver, Duration.ofSeconds(15));
     }
 
     @Test(priority = -1)
@@ -53,8 +55,10 @@ public class Loggin101 extends BaseClass {
 
     @Test(priority = 0)
     public void verifyLoginButtonDisplay() {
-        Assert.assertTrue(
-            login.getLoggin_button().isDisplayed(),
+      WebElement loginBtn = login.getLoggin_button();
+      wait.until(ExpectedConditions.visibilityOf(loginBtn));
+    	Assert.assertTrue(
+            loginBtn.isDisplayed(),
             "The Loggin Button is not displayed !"
         );
     }
@@ -81,19 +85,27 @@ public class Loggin101 extends BaseClass {
 
     @Test(priority = 3)
     public void verifyforgotPassWordEnabled() {
+    	WebElement forgotpass = login.getForgotpass();
+    	wait.until(ExpectedConditions.visibilityOf(forgotpass));
+    	
         SoftAssert sa = new SoftAssert();
         sa.assertTrue(
-            login.getForgotpass().isEnabled(),
+        		forgotpass.isEnabled(),
             "Forgot pass is not enabled !"
         );
     }
 
     @Test(priority = 4)
     public void verifyforgotPassWordLink() throws InterruptedException {
+    	
         String expectedLink =
             "https://opensource-demo.orangehrmlive.com/web/index.php/auth/requestPasswordResetCode";
-        login.getForgotpass().click();
-        Thread.sleep(2000);
+       WebElement forgotpass = login.getForgotpass();
+       wait.until(ExpectedConditions.visibilityOf(forgotpass));
+        forgotpass.click();
+       
+        wait.until(ExpectedConditions.urlToBe(expectedLink));
+        
         Assert.assertEquals(
             expectedLink,
             driver.getCurrentUrl(),
@@ -103,8 +115,13 @@ public class Loggin101 extends BaseClass {
 
     @Test(priority = 5)
     public void testResetPassPage() {
-    	login.getForgotpass().click();
+    	WebElement forgotpass = login.getForgotpass();
+    	wait.until(ExpectedConditions.visibilityOf(forgotpass));
+    	
+    	forgotpass.click();
+    	
         WebElement ele = login.getUsernameResetPassPage();
+        wait.until(ExpectedConditions.visibilityOf(ele));
         ele.sendKeys("sample");
 
         String username = ele.getAttribute("value");
@@ -182,6 +199,7 @@ public class Loggin101 extends BaseClass {
             "password",
             "Password is not masked (type != password)"
         );
+        sa.assertAll();
     }
 
     // -------- Functional login (LAST) --------

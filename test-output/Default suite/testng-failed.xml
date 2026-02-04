@@ -3,22 +3,59 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.DashBoard_Test">
+      <class name="tests.Admin_Module_Test">
         <methods>
-          <include name="verifyUpgradeButtonEnabled"/>
-          <include name="setUp"/>
+          <include name="verifyEmpNameFieldEnablity"/>
           <include name="loggout"/>
-          <include name="verifyHelpButtonDisplayed"/>
-          <include name="loggin"/>
-          <include name="verifyQuickLaunch_SecondButton"/>
+          <include name="selectAdminRole"/>
+          <include name="verifyUserRoleoptionsVisiblity"/>
+          <include name="verifyUserRoleFieldVisiblityMainPage"/>
           <include name="preCondition"/>
+          <include name="verifySearchBtnEnablaed"/>
+          <include name="verifyEmpNameFeild"/>
+          <include name="verifyEmpNameFieldVisiblity"/>
+          <include name="addAdminLinkVerify"/>
+          <include name="verifyJobSpanDropDown"/>
+          <include name="verifyUserRoleEnablityMainPage"/>
+          <include name="verifyConfmPassFeildEnablity"/>
+          <include name="saveBtnEnablity"/>
+          <include name="verifyPasswordFieldVisiblity"/>
+          <include name="verifyStatusfeildOptions"/>
+          <include name="verifyUserroleOptions"/>
+          <include name="verifyStatusOptions"/>
+          <include name="verifyComfPassMasked"/>
+          <include name="searchUser"/>
+          <include name="cancelBtnEnabaled"/>
+          <include name="sendPassword"/>
+          <include name="verifyUserRole_Admin"/>
+          <include name="verifyStatusfeild"/>
+          <include name="cancelBtnVisilbity"/>
+          <include name="verifySearchBtnVisiblity"/>
+          <include name="verifyUserRoleoptionsSelection"/>
           <include name="postCondition"/>
-          <include name="verifyUpgradeButtonDisplayed"/>
-          <include name="verifyQuickLaunch_ThirdButton"/>
-          <include name="verifyHelpButtonNavigation"/>
-          <include name="verifyUpgradeButtonNavigation"/>
+          <include name="sendComfPass"/>
+          <include name="verifyResetBtnEnabaled"/>
+          <include name="verifyUserRoleoptionsEnablity"/>
+          <include name="verifyJobSpan"/>
+          <include name="verifyUsernameFieldEnablity"/>
+          <include name="verifyPasswordFieldEnablity"/>
+          <include name="verifyUsernameFieldVisiblity"/>
+          <include name="saveBtnVisiblity"/>
+          <include name="verifyAddedUser"/>
+          <include name="addUsername"/>
+          <include name="verifyJobSpanAllDropDownLinks"/>
+          <include name="verifyPassMasked"/>
+          <include name="verifyFooter"/>
+          <include name="setUp"/>
+          <include name="verifyUsernameFieldEnablityMainPage"/>
+          <include name="selectStatusEnable"/>
+          <include name="verifyResetBtnVisiblity"/>
+          <include name="verifyConfmPassFeildVisiblity"/>
+          <include name="verifyStatusFieldvisiblity"/>
+          <include name="verifyEmpNameFieldWorking"/>
+          <include name="saveBtnClickVerify"/>
         </methods>
-      </class> <!-- tests.DashBoard_Test -->
+      </class> <!-- tests.Admin_Module_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

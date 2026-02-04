@@ -41,10 +41,13 @@ public class Literners implements ITestListener {
 	@Override
 	public void onTestFailure(ITestResult result){
 		String dynamicName= result.getMethod().getMethodName()+LocalDateTime.now().toString().replace(":", "-");
+		
 		TakesScreenshot ss= (TakesScreenshot)BaseClass.driver;
 		File screnshot = ss.getScreenshotAs(OutputType.FILE);
 		
 		
+		if (ss!=null) {
+			
 		
 		try {
 			File fis = new File("C:\\girish\\javaProjects\\Girish_Automation\\Hybrid_Driven_Tesing\\src\\test\\resources\\ScreenShots\\"+dynamicName+".png");
@@ -57,6 +60,7 @@ public class Literners implements ITestListener {
 		} catch (IOException e) {
 			
 			e.printStackTrace();
+		}
 		}
 		
 		System.out.println("Test failed: " + result.getMethod().getMethodName());
